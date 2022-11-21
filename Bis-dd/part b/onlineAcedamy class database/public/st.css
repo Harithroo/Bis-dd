@@ -1,0 +1,38 @@
+
+body, table{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(150, 150, 150);
+}
+h1 {
+  font-size: 40px;
+}
+nav a{
+  text-decoration: none;
+  font-size: larger;
+  color: blue;
+  padding: 10px;
+}
+nav a:hover{
+  color: red;
+}
+.all{
+  width: 100%;
+  font-size: large;
+}
+.all tr:hover{
+  background-color: #afb4ff;
+}
+.all th {
+  background-color: #868eff;
+}
+.all td {
+  text-align: center;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  body, table{
+    font-size: 10px;
+  }
+}
